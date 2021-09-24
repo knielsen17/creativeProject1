@@ -1,0 +1,48 @@
+.content {
+	font-family: "Times New Roman";
+
+}
+.titleBar {
+	text-align: center;
+	padding: 25px 5px 0px 5px;
+	margin: 0px 0px 40px 0px;
+	background-color: #FF7F7F;
+}
+.secondary-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.list-container {
+	margin: 10px 5px 200px 5px;
+}
+.footer {
+	display: flex;
+	justify-content: space-around;
+	background-color: #FF7F7F;
+}
+#statImage {
+	margin: 1px 5px 15px 5px;
+}
+#introduction {
+	margin: 10px 200px 50px 200px;
+}
+@media only screen and (max-width: 600px) {
+	#statImage {
+		width: 100%;
+	}
+	#introduction {
+		margin: 10px;
+	}
+}
+@media only screen and (min-width: 601px) and (max-width: 990px) {
+	#introduction {
+		margin: 10px 100px 50px 100px;
+	}
+}
