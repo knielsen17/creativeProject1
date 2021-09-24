@@ -35,3 +35,17 @@
   background-color: #ff9194 !important;
   font-weight: bold;
 }
+
+/* Title bar */
+.content_head {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.introduction {
+  border-style: groove;
+  border-color: #E3242B;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+}
