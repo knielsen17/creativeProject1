@@ -1,0 +1,37 @@
+/* Topbar */
+.topbar {
+  height: 20px;
+  background-color: #800020;
+}
+
+/* Navbar */
+.bg-light {
+  background-color: #E3242B !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    font-weight: bold;
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    font-weight: bold;
+    color: #000;
+}
+
+.navbar-light .navbar-brand {
+  color: #000 !important;
+}
+
+.dropdown-menu {
+  background-color: #ff9194 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #ff9194 !important;
+  font-weight: bold;
+}
