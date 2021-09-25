@@ -1,0 +1,42 @@
+/* Introduction */
+.secondary-container img {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secondary-container p {
+  font-size: 1.5em;
+  border-style: groove;
+  border-color: #E3242B;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+}
+
+.list-container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.list {
+  flex-wrap: wrap;
+  display: flex;
+  margin: auto;
+  margin-bottom: 70px;
+  justify-content: center;
+}
+
+.list-item {
+  padding-top: 50px;
+  font-size: 2em;
+  margin: auto;
+}
+
+.list-item h2 {
+  border-bottom-style: groove;
+  border-bottom-color: #E3242B;
+  font-size: 1.5em;
+}
