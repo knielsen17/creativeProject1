@@ -61,6 +61,7 @@
   font-size: 1.5em;
 }
 
+/* Mean and Variance */
 .mean-variance-container {
   flex-wrap: wrap;
   margin : 0 auto;
@@ -106,6 +107,68 @@
 .variance-container img {
   width: 30px;
 }
+
+/* Formulas and Graphs */
+.pmf-container, .pdf-container, .cdf-container {
+  flex-wrap: wrap;
+  margin : 0 auto;
+	display : flex;
+	justify-content : space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+}
+
+.pmf, .pdf, .cdf {
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.pmf h2, .pdf h2, .cdf h2 {
+  padding: 10px;
+  display: inline-block;
+  width: auto;
+  border-style: groove;
+  border-color: #E3242B;
+  font-size: 3em;
+}
+
+.pmfFormula, .pdfFormula, .cdfFormula {
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #E3242B;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.pmfFormula h3, .pdfFormula h3, .cdfFormula h3 {
+  font-size: 3em;
+}
+
+.pmfFormula img, .pdfFormula img, .cdfFormula img {
+  width: 20%;
+}
+
+.pmfGraph, .pdfGraph, .cdfGraph {
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #E3242B;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.pmfGraph h3, .pdfGraph h3, .cdfGraph h3{
+  font-size: 3em;
+}
+
+.pmfGraph img, .pdfGraph img, .cdfGraph img{
+  width: 50%;
+}
+
 
 
 .footer {
