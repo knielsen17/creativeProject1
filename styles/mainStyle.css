@@ -60,3 +60,8 @@
 .introduction p {
   font-size: 1.5em;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
