@@ -15,6 +15,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
+    font-size: 1.5em;
     color: #000;
 }
 
@@ -24,6 +25,7 @@
 }
 
 .navbar-light .navbar-brand {
+  font-size: 1.8em;
   color: #000 !important;
 }
 
@@ -42,6 +44,10 @@
   margin-top: 30px;
 }
 
+.content_head h1 {
+  font-size: 3em;
+}
+
 /* Introduction */
 .introduction {
   border-style: groove;
@@ -49,4 +55,8 @@
   margin-left: 100px;
   margin-right: 100px;
   padding: 10px;
+}
+
+.introduction p {
+  font-size: 1.5em;
 }
